@@ -60,9 +60,9 @@ More projects coming soon...
 
 ## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight)
+![GitHub Stats](![Ronn Mwangi's GitHub Stats](https://github-readme-stats.vercel.app/api?username=RonnMwangi&show_icons=true&theme=tokyonight))
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight)
+![Top Languages](![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=RonnMwangi&layout=compact&theme=tokyonight))
 
 ---
 
