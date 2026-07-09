@@ -3,51 +3,238 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Site</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 700px;
-            margin: 50px auto;
-            padding: 0 20px;
-            line-height: 1.6;
-            color: #333;
-        }
-        h1 {
-            border-bottom: 2px solid #0366d6;
-            padding-bottom: 10px;
-        }
-        a {
-            color: #0366d6;
-        }
-        .section {
-            margin-bottom: 30px;
-        }
-    </style>
+    <meta name="description" content="Portfolio of Ronn Mwangi - Information Technology Student and Aspiring Software Developer.">
+    <meta name="keywords" content="Ronn Mwangi, Portfolio, IT Student, Web Developer, GitHub">
+    <meta name="author" content="Ronn Mwangi">
+
+    <title>Ronn Mwangi | Portfolio</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
+
 <body>
-    <h1>Welcome! I'm [Ronn Karim]</h1>
 
-    <div class="section">
+    <!-- ================= NAVIGATION ================= -->
+
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                <h2>Ronn<span>Karimi</span></h2>
+            </div>
+
+            <ul class="nav-links">
+
+                <li><a href="index.html" class="active">Home</a></li>
+
+                <li><a href="about.html">About</a></li>
+
+                <li><a href="projects.html">Projects</a></li>
+
+                <li><a href="skills.html">Skills</a></li>
+
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+
+        </nav>
+    </header>
+
+    <!-- ================= HERO SECTION ================= -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <h1>Hello, I'm <span>Ronn Mwangi</span></h1>
+
+            <h3>Information Technology Student</h3>
+
+            <p>
+                Passionate about technology, software development,
+                networking, cybersecurity, and creating innovative
+                web applications that solve real-world problems.
+            </p>
+
+            <div class="buttons">
+
+                <a href="projects.html" class="btn">
+                    View Projects
+                </a>
+
+                <a href="contact.html" class="btn-secondary">
+                    Contact Me
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img src="images/profile.jpg"
+            alt="Ronn Mwangi">
+
+        </div>
+
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+
+    <section class="about-preview">
+
         <h2>About Me</h2>
-        <p>I'm a student currently learning [Programming].
-           I'm interested in [Full stack app development].</p>
-    </div>
 
-    <div class="section">
-        <h2>What I'm Learning</h2>
-        <ul>
-            <li>Git and GitHub</li>
-            <li>Python</li>
-            <li>IT</li>
-        </ul>
-    </div>
+        <p>
+            I am an enthusiastic Information Technology student with
+            a strong interest in software development, web design,
+            cybersecurity, and database management. I enjoy learning
+            new technologies and turning ideas into useful digital
+            solutions.
+        </p>
 
-    <div class="section">
-        <h2>Links</h2>
-        <ul>
-            <li><a href="https://github.com/RonnKarimi">My GitHub Profile</a></li>
-        </ul>
-    </div>
+        <a href="about.html" class="btn">
+            Read More
+        </a>
+
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+
+    <section class="skills-preview">
+
+        <h2>Technical Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <i class="fab fa-html5"></i>
+                <h3>HTML5</h3>
+            </div>
+
+            <div class="skill-card">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS3</h3>
+            </div>
+
+            <div class="skill-card">
+                <i class="fab fa-js-square"></i>
+                <h3>JavaScript</h3>
+            </div>
+
+            <div class="skill-card">
+                <i class="fab fa-python"></i>
+                <h3>Python</h3>
+            </div>
+
+            <div class="skill-card">
+                <i class="fab fa-git-alt"></i>
+                <h3>Git</h3>
+            </div>
+
+            <div class="skill-card">
+                <i class="fab fa-github"></i>
+                <h3>GitHub</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section class="projects-preview">
+
+        <h2>Featured Projects</h2>
+
+        <div class="project-container">
+
+            <div class="project-card">
+
+                <h3>Portfolio Website</h3>
+
+                <p>
+                    A responsive personal portfolio website built using
+                    HTML, CSS and JavaScript.
+                </p>
+
+            </div>
+
+            <div class="project-card">
+
+                <h3>Student Management System</h3>
+
+                <p>
+                    A system for managing student records using
+                    programming and database concepts.
+                </p>
+
+            </div>
+
+            <div class="project-card">
+
+                <h3>JavaScript Calculator</h3>
+
+                <p>
+                    A beginner-friendly calculator developed using
+                    HTML, CSS and JavaScript.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+
+    <section class="contact-preview">
+
+        <h2>Let's Connect</h2>
+
+        <p>
+            Feel free to connect with me through GitHub or email.
+            I am always open to learning, collaboration and exciting
+            opportunities.
+        </p>
+
+        <a href="contact.html" class="btn">
+            Get In Touch
+        </a>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="social-icons">
+
+            <a href="https://github.com/RonnKarimi" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <a href="#">
+                <i class="fab fa-linkedin"></i>
+            </a>
+
+            <a href="#">
+                <i class="fas fa-envelope"></i>
+            </a>
+
+        </div>
+
+        <p>
+            © 2026 Ronn Mwangi. All Rights Reserved.
+        </p>
+
+    </footer>
+
+    <script src="js/script.js"></script>
+
 </body>
 </html>
