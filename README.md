@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Ronn Mwangi
+# 👋 Hi, I'm Ronn Karimi
 
 ## 💻 About Me
 I'm an Information Technology student passionate about technology, programming, and solving real-world problems through software. I enjoy learning new programming languages, building web applications, and exploring different areas of IT.
@@ -60,9 +60,9 @@ More projects coming soon...
 
 ## 📊 GitHub Stats
 
-![GitHub Stats](![Ronn Mwangi's GitHub Stats](https://github-readme-stats.vercel.app/api?username=RonnMwangi&show_icons=true&theme=tokyonight))
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=RonnKarimi&show_icons=true&theme=tokyonight))
 
-![Top Languages](![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=RonnMwangi&layout=compact&theme=tokyonight))
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=RonnKarimi&layout=compact&theme=tokyonight))
 
 ---
 
