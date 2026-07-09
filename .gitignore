@@ -1,0 +1,111 @@
+# ==========================
+# Dependencies
+# ==========================
+node_modules/
+vendor/
+
+# ==========================
+# Logs
+# ==========================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ==========================
+# IDE & Editors
+# ==========================
+.vscode/
+.idea/
+*.code-workspace
+
+# ==========================
+# Operating System Files
+# ==========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================
+# Temporary Files
+# ==========================
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# ==========================
+# Cache Files
+# ==========================
+.cache/
+.parcel-cache/
+dist/
+build/
+
+# ==========================
+# Coverage Reports
+# ==========================
+coverage/
+.nyc_output/
+
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+venv/
+.venv/
+
+# ==========================
+# Java
+# ==========================
+*.class
+*.jar
+*.war
+*.ear
+
+# ==========================
+# C/C++
+# ==========================
+*.o
+*.obj
+*.exe
+
+# ==========================
+# Archives
+# ==========================
+*.zip
+*.rar
+*.tar
+*.gz
+*.7z
+
+# ==========================
+# Sensitive Information
+# ==========================
+*.key
+*.pem
+*.crt
+secrets.json
+
+# ==========================
+# Miscellaneous
+# ==========================
+*.pid
+*.seed
+*.out
